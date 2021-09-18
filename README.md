@@ -35,7 +35,7 @@ This switching is controlled by the Trinket, which has levels corrected by the t
 * JP1 is used as part of a latching relay system. Link points marked on board if using a latching relay
 
 # We must disconnect one resistor on the Amiga.
-Disconnect E595 as shown below...
+Disconnect E595 as shown below... Then use jumper wire or pin or whatever to make your connection to JP2 on OpenSwitcher.
 ![openswitcher1200_1200connection](https://user-images.githubusercontent.com/89555920/133881800-5d6d2870-812e-49cd-81e0-e90c9588fb28.png)
 
 # Construction Notes
