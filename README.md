@@ -36,7 +36,8 @@ This switching is controlled by the Trinket, which has levels corrected by the t
 # Construction Notes
 On all headers and jumpers, the square pad is pin 1.
 All connectors and descriptions: \
-\ 
+
+
 J1 - Power Supply. 5V and GND. On some boards (example Amiga 600) there are resistors directly underneath these pads you could take power from. Or even use Pogo pins if you are feeling adventurous. Or connect to floppy 5v. See J3 below if looking for alternative power.
 * J1 - Pin 1=5v
 * J1 - Pin 2=GND
