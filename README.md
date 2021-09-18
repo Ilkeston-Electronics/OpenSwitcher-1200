@@ -4,7 +4,7 @@ Amiga Microprocessor-controlled drive switcher with DF1 internal drive support. 
 # Disclaimer
 Consider this beta. I have checked and rechecked the schematics and DRC rules-checked it. However, I have only built it on veroboard, and I am not perfect. I'm waiting for boards to come.
 
-# Latest firmware in releases.
+# [Latest firmware in releases HERE.](https://github.com/Ilkeston-Electronics/OpenSwitcher/releases)
 
 ![openswitcher1200_pcb](https://user-images.githubusercontent.com/89555920/133881179-3998639f-3dd8-40bd-beae-fb34b562b518.png)
 
