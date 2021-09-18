@@ -1,6 +1,9 @@
 # OpenSwitcher 1200
 Amiga Microprocessor-controlled drive switcher with DF1 internal drive support. Optional SMD small version.
 
+# Disclaimer
+Consider this beta. I have checked and rechecked the schematics and DRC rules-checked it. However, I have only built it on veroboard, and I am not perfect. I'm waiting for boards to come.
+
 # Latest firmware in releases.
 
 ![openswitcher1200_pcb](https://user-images.githubusercontent.com/89555920/133881179-3998639f-3dd8-40bd-beae-fb34b562b518.png)
@@ -155,5 +158,5 @@ J3 - KB_Reset and power. This is designed to mimic the unused keyboard header on
 * That is all
 
 # DISCLAIMER 
-* This project should be considered BETA. You only have yourself to blame. You decide to make and fit this. I will not take responsibility for any damage, however caused. Though I will try to help.
+* You only have yourself to blame. You decide to make and fit this. I will not take responsibility for any damage, however caused. Though I will try to help.
 
