@@ -3,7 +3,7 @@ Amiga Microprocessor-controlled drive switcher with DF1 internal drive support. 
 
 # Latest firmware in releases.
 
-* [PIC GO HERE]
+![openswitcher1200_pcb](https://user-images.githubusercontent.com/89555920/133881179-3998639f-3dd8-40bd-beae-fb34b562b518.png)
 
 # Description
 
