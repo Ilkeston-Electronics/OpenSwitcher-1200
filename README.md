@@ -1,12 +1,9 @@
 # OpenSwitcher 1200
 Amiga Microprocessor-controlled drive switcher with DF1 internal drive support. Optional SMD small version.
 
-# Latest firmware in releases. Read the ADDENDUM at the bottom of this page.
+# Latest firmware in releases.
 
-![OpenSwitcher_Final](https://user-images.githubusercontent.com/89555920/132756753-3a67bf70-7d48-49cc-99e8-e02f0e0cb97f.png)
-
-
-
+* [PIC GO HERE]
 
 # Description
 
@@ -39,20 +36,20 @@ This switching is controlled by the Trinket, which has levels corrected by the t
 # Construction Notes
 On all headers and jumpers, the square pad is pin 1.
 All connectors and descriptions:
-* J1 - Power Supply. 5V and GND. On some boards (example Amiga 600) there are resistors directly underneath these pads you could take power from. Or even use Pogo pins if you are feeling adventurous. Or connect to floppy 5v. See J3 below if looking for alternative power.
+J1 - Power Supply. 5V and GND. On some boards (example Amiga 600) there are resistors directly underneath these pads you could take power from. Or even use Pogo pins if you are feeling adventurous. Or connect to floppy 5v. See J3 below if looking for alternative power.
 * J1 - Pin 1=5v
 * J1 - Pin 2=GND
 
-* SEL Lines
+SEL Lines
 * J2 - Pin 1= SEL1 Point E595 on Amiga board. On some boards, this will just say 95. Remember the the resistor we disconnected? We connect a wire to the now free LOWER pad where the resistor used to be. Use a pogo pin? Little bit of wire? A header pin?
 * J2 - Pin 2= SEL0 (Not required as it is taken from the drive port). Added "just in case". Leave disconnected.
 
-* JP3 - Latching relay jumper.
+JP3 - Latching relay jumper.
 * 1--2 Not Used
 * 2--3 Latching Relay fitted
 * Unconnected - Non-latching relay fitted(default)
 
-* J3 - KB_Reset and power. This is designed to mimic the unused keyboard header on a Amiga 1200 rev 2B, which is CN17.
+J3 - KB_Reset and power. This is designed to mimic the unused keyboard header on a Amiga 1200 rev 2B, which is CN17.
 * J3 - Pin 3 - KB_Reset line. Fits to J3 pin 3 on Amiga 1200 rev 2B. Other Amiga 1200, connect to TP2 pin 9 (bottom far left of motherboard), Amiga 600, connect to U5 pin 63 (Gayle). There are other points, take a look at [AmigaPCB] for guidance.
 * J3 - Pin 6 - Alternative 5V voltage input (take from floppy drive)
 * J3 - Pin 7 - Alternative GND voltage input (take from floppy drive)
