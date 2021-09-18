@@ -138,6 +138,7 @@ J3 - KB_Reset and power. This is designed to mimic the unused keyboard header on
 # User Guide
 * Remove floppy ribbon cable (34 way IDC). Fit floppy cable into DRIVE_CON on OpenSwitcher 1200
 * Fit KB_RST wire in your preferred way, as described earlier in this document.
+* Connect power. Either from floppy drive (5v) or elsewhere.
 * Ensure Trinket is NOT PLUGGED IN to OpenSwitcher or CIA is removed from OpenSwitcher (I haven't had any failed CIA chips during flashing, but better to be safe)
 * Download software and plug in Trinket. A drive will open
 * Drag and drop downloaded UF2 file to this drive. Wait for lights to go out on device then disconnect.
