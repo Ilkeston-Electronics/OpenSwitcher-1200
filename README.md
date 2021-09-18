@@ -1,5 +1,5 @@
 # OpenSwitcher 1200
-Amiga Microprocessor-controlled drive switcher for Amiga 600 and 1200 (possibly all Amigas actually, if correct resistor is removed) with DF1 internal drive support. Optional SMD small version[Gerbers not uploaded yet for SMD version].
+Amiga Microprocessor-controlled drive switcher for Amiga 600 and 1200 (possibly all Amigas actually, if correct resistor is removed) with DF1 internal drive support. Optional SMD small version[Gerbers not uploaded yet for SMD version]. If you want the A500 / A500 Plus version, see [OpenSwitcher HERE](https://github.com/Ilkeston-Electronics/OpenSwitcher)
 
 # Disclaimer
 Consider this beta. I have checked and rechecked the schematics and DRC rules-checked it. However, I have only built it on veroboard, and I am not perfect. I'm waiting for boards to come.
