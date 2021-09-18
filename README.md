@@ -65,7 +65,8 @@ J3 - KB_Reset and power. This is designed to mimic the unused keyboard header on
 * 1 (or 2) x 1n4148 or similar diode
 * 1 x Adafruit Trinket M0 (recommended), though classic Trinket (3v and 5v are / will be supported)
 * 2 x 2 pin header 2.54mm pitch
-* 1 x DuPont cable female-soldered end (or female to male, to insert into keyboard connector pin 3
+* 1 x 7 pin header 2.54mm pitch (only 3 pins are used. Soldering a single pin is never fun).
+* 4 x DuPont cables female-soldered end (or female to male, to insert into keyboard connector pin 3, 5V, GND and maybe E595 too.
 * 2 x 5 male pin header (2.54mm pitch supplied with Trinket)
 * 2 x 5 female pin header (2.54mm pitch to plug Trinket in to, or solder Trinket into board)
 * 1 x 68R resistor (Optional) 1/8 or 1/4 watt.
@@ -82,6 +83,7 @@ J3 - KB_Reset and power. This is designed to mimic the unused keyboard header on
 * J2 - J1 - 1 x 2 header pin
 * JP1 - 1 x 3 header pin (optional)
 * R6 - Optional - This replaces the disconnected resistor we removed connecting E595. 68R is the value. In practice, this can just be bridged. Up to you!
+
 # Parts List - Slim SMD version
 * 1 x 34 pin (or 2x17) male pins, 2.54mm pitch.
 * 1 x 34 pin (or 2x17) female header, 2.54mm pitch.
