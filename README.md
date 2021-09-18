@@ -1,9 +1,12 @@
 # OpenSwitcher 1200
-Amiga Microprocessor-controlled drive switcher with DF1 internal drive support. Optional SMD small version.
+Amiga Microprocessor-controlled drive switcher for Amiga 600 and 1200 (possibly all Amigas actually, if correct resistor is removed) with DF1 internal drive support. Optional SMD small version[Gerbers not uploaded yet for SMD version]. If you want the A500 / A500 Plus version, see [OpenSwitcher HERE](https://github.com/Ilkeston-Electronics/OpenSwitcher)
 
-# Latest firmware in releases.
+# Disclaimer
+Consider this beta. I have checked and rechecked the schematics and DRC rules-checked it. However, I have only built it on veroboard, and I am not perfect. I'm waiting for boards to come.
 
-* [PIC GO HERE]
+# [Latest firmware in releases HERE.](https://github.com/Ilkeston-Electronics/OpenSwitcher/releases)
+
+![openswitcher1200_pcb](https://user-images.githubusercontent.com/89555920/133881179-3998639f-3dd8-40bd-beae-fb34b562b518.png)
 
 # Description
 
@@ -32,7 +35,9 @@ This switching is controlled by the Trinket, which has levels corrected by the t
 * JP1 is used as part of a latching relay system. Link points marked on board if using a latching relay
 
 # We must disconnect one resistor on the Amiga.
-* [Guide]
+Disconnect E595 as shown below... Then use jumper wire or pin or whatever to make your connection to JP2 on OpenSwitcher.
+![openswitcher1200_1200connection](https://user-images.githubusercontent.com/89555920/133881800-5d6d2870-812e-49cd-81e0-e90c9588fb28.png)
+
 # Construction Notes
 On all headers and jumpers, the square pad is pin 1.
 All connectors and descriptions: \
@@ -110,6 +115,8 @@ J3 - KB_Reset and power. This is designed to mimic the unused keyboard header on
 * JP1 - 1 x 3 header pin (optional)
 * R6 - Optional - This replaces the disconnected resistor we removed connecting E595. 68R is the value. In practice, this can just be bridged. Up to you!
 
+# R6 - 68R Resistor - This replaces the 68R resistor we removed from the Amiga motherboard. You can just link this and it will work. But I'm not sure I would advise it. For the cost of a resistor, fit one.
+
 # Supported relays
 * Any 5v relay that will fit into the footprint
 # Latching relays (need D2, R5 and Q5 fitting)
@@ -131,6 +138,7 @@ J3 - KB_Reset and power. This is designed to mimic the unused keyboard header on
 # User Guide
 * Remove floppy ribbon cable (34 way IDC). Fit floppy cable into DRIVE_CON on OpenSwitcher 1200
 * Fit KB_RST wire in your preferred way, as described earlier in this document.
+* Connect power. Either from floppy drive (5v) or elsewhere.
 * Ensure Trinket is NOT PLUGGED IN to OpenSwitcher or CIA is removed from OpenSwitcher (I haven't had any failed CIA chips during flashing, but better to be safe)
 * Download software and plug in Trinket. A drive will open
 * Drag and drop downloaded UF2 file to this drive. Wait for lights to go out on device then disconnect.
@@ -151,5 +159,5 @@ J3 - KB_Reset and power. This is designed to mimic the unused keyboard header on
 * That is all
 
 # DISCLAIMER 
-* This project should be considered BETA. You only have yourself to blame. You decide to make and fit this. I will not take responsibility for any damage, however caused. Though I will try to help.
+* You only have yourself to blame. You decide to make and fit this. I will not take responsibility for any damage, however caused. Though I will try to help.
 
