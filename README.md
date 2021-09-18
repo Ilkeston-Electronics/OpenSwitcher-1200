@@ -32,7 +32,9 @@ This switching is controlled by the Trinket, which has levels corrected by the t
 * JP1 is used as part of a latching relay system. Link points marked on board if using a latching relay
 
 # We must disconnect one resistor on the Amiga.
-* [Guide]
+Disconnect E595 as shown below...
+![openswitcher1200_1200connection](https://user-images.githubusercontent.com/89555920/133881800-5d6d2870-812e-49cd-81e0-e90c9588fb28.png)
+
 # Construction Notes
 On all headers and jumpers, the square pad is pin 1.
 All connectors and descriptions: \
@@ -109,6 +111,8 @@ J3 - KB_Reset and power. This is designed to mimic the unused keyboard header on
 * J1 - 1 x 2 header pin
 * JP1 - 1 x 3 header pin (optional)
 * R6 - Optional - This replaces the disconnected resistor we removed connecting E595. 68R is the value. In practice, this can just be bridged. Up to you!
+
+# R6 - 68R Resistor - This replaces the 68R resistor we removed from the Amiga motherboard. You can just link this and it will work. But I'm not sure I would advise it. For the cost of a resistor, fit one.
 
 # Supported relays
 * Any 5v relay that will fit into the footprint
